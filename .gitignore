@@ -1,0 +1,7 @@
+*.py[co]
+*.mo
+*.swp
+*.DS_Store
+*.coverage
+*.sqlite3
+midas/midas/settings/local.py
