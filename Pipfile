@@ -12,6 +12,7 @@ djangorestframework = "*"
 django-cors-headers = "*"
 django-money = "*"
 py-moneyed = "*"
+djangorestframework-jwt = "*"
 
 
 [dev-packages]
@@ -19,6 +20,7 @@ py-moneyed = "*"
 ipython = "*"
 isort = "*"
 ipdb = "*"
+"flake8" = "*"
 
 
 [requires]
