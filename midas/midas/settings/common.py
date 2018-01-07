@@ -1,3 +1,5 @@
+from datetime import timedelta
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -57,6 +59,14 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication',
         'rest_framework.authentication.BasicAuthentication',
     ),
+}
+
+
+# JWT settings
+
+JWT_AUTH = {
+    'JWT_ALLOW_REFRESH': True,
+    'JWT_EXPIRATION_DELTA': timedelta(days=2),
 }
 
 
